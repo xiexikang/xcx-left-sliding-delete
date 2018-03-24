@@ -4,4 +4,5 @@
 
 展示效果如下：
 
-![http://s6.sinaimg.cn/middle/0021Otovzy7j8KZpuTPc5&690][2]
+![效果图](http://wx2.sinaimg.cn/mw690/6ecf2da3gy1fpnric6vjtg208w08wnpg.gif)
+
