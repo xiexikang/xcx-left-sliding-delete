@@ -1,0 +1,22 @@
+/* pages/collect/collect.wxss */
+.touch-item { display: flex; justify-content: space-between; border-bottom:1px solid #ebebeb;
+  width: 100%; overflow: hidden; height: 240rpx;  box-sizing: border-box;}
+.content { width: 100%; -webkit-transition: all 0.4s;transition: all 0.4s;
+  -webkit-transform: translateX(180rpx);transform: translateX(180rpx); margin-left: -180rpx}
+.touch-move-active .content,
+.touch-move-active .del { -webkit-transform: translateX(0);transform: translateX(0);}
+.com{ padding: 40rpx 0 0 30rpx;}
+.tp{ width: 240rpx; height: 160rpx; border-radius: .1rem; overflow: hidden; background-color: white; float: left;}
+.tp .img{ width: 100%; height: 100%;}
+.txt{ width: 420rpx; height: 160rpx; margin-left:270rpx; position: relative; }
+.txt .tit{ font-size: 30rpx; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;}
+.txt .bot{ width: 100%; height:40rpx;line-height: 40rpx; position: absolute; bottom: 0; left: 0; font-size: 24rpx;}
+.txt .bot .pri{ float: left;}
+.txt .bot .pri-buy .num{ color: #f00;}
+.txt .bot .pri-play{ color: #999; text-decoration: line-through;}
+.txt .bot .a{ float: right; font-size: 28rpx; color: #999;}
+.txt .bot .a .ico{ width: 30rpx; height: 30rpx;  float: left; margin-top: 5rpx;}
+.txt .bot .a .ti{ float: left; margin-left: 10rpx; }
+.del {background-color: #d5d5d5; width: 180rpx; display: flex;flex-direction: column;
+  align-items: center;justify-content: center; color: #fff;
+  -webkit-transform: translateX(180rpx);transform: translateX(180rpx);-webkit-transition: all 0.4s;transition: all 0.4s;}

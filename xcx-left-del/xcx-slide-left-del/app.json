@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/collect/collect",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#589ef7",
+    "navigationBarTitleText": "向左滑动删除案例",
+    "navigationBarTextStyle":"#fff"
+  }
+}

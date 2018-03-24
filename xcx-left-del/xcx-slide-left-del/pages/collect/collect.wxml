@@ -1,0 +1,33 @@
+<!--pages/collect/collect.wxml-->
+<view class="collect">
+  <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" 
+  bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="">
+    <view class="content">
+      <view class='com'>
+        <view class='tp'>
+          <image src="{{item.img}}" class='img' />
+        </view>
+        <view class='txt'>
+          <view class='tit'>{{item.title}}</view>
+          <view class='bot'>
+            <view class="pri {{item.type==0? 'pri-buy':'pri-play'}}"><label class='num'>{{item.price}}</label>学习币</view>
+            <block wx:if = "{{item.type==0}}">
+              <navigator class='a'>
+                <image src="../imgs/ico-buy.png" class='ico' />
+                <label class='ti'>购买</label>
+              </navigator>
+            </block>
+            <block wx:else>
+              <navigator class='a'>
+                <image src="../imgs/ico-play.png" class='ico' />
+                <label class='ti'>播放</label>
+              </navigator>
+            </block>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="del" catchtap="del" data-index="{{index}}">取消收藏</view>
+  </view>
+</view>
+
