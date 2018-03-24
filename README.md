@@ -4,4 +4,4 @@
 
 展示效果如下：
 
-![enter description here][2]
+![http://s6.sinaimg.cn/middle/0021Otovzy7j8KZpuTPc5&690][2]
