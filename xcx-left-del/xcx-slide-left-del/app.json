@@ -1,13 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/collect/collect",
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#589ef7",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
     "navigationBarTitleText": "向左滑动删除案例",
-    "navigationBarTextStyle":"#fff"
-  }
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
 }

@@ -10,24 +10,20 @@
         <view class='txt'>
           <view class='tit'>{{item.title}}</view>
           <view class='bot'>
-            <view class="pri {{item.type==0? 'pri-buy':'pri-play'}}"><label class='num'>{{item.price}}</label>学习币</view>
-            <block wx:if = "{{item.type==0}}">
-              <navigator class='a'>
-                <image src="../imgs/ico-buy.png" class='ico' />
-                <label class='ti'>购买</label>
-              </navigator>
-            </block>
-            <block wx:else>
-              <navigator class='a'>
-                <image src="../imgs/ico-play.png" class='ico' />
-                <label class='ti'>播放</label>
-              </navigator>
-            </block>
+            <view class="pri {{item.type==0? 'pri-buy':'pri-play'}}"><label class='num'>￥{{item.price}}</label></view>
+            <navigator class='a' wx:if = "{{item.type==0}}">
+              <image src="../imgs/ico-buy.png" class='ico' />
+              <label class='ti'>购买</label>
+            </navigator>
+            <navigator class='a' wx:else>
+              <image src="../imgs/ico-play.png" class='ico' />
+              <label class='ti'>播放</label>
+            </navigator>
           </view>
         </view>
       </view>
     </view>
-    <view class="del" catchtap="del" data-index="{{index}}">取消收藏</view>
+    <view class="del" catchtap="cancleCollect" data-index="{{index}}">取消收藏</view>
   </view>
 </view>
 

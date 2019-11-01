@@ -9,12 +9,12 @@
 .tp{ width: 240rpx; height: 160rpx; border-radius: .1rem; overflow: hidden; background-color: white; float: left;}
 .tp .img{ width: 100%; height: 100%;}
 .txt{ width: 420rpx; height: 160rpx; margin-left:270rpx; position: relative; }
-.txt .tit{ font-size: 30rpx; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;}
+.txt .tit{ height: 80rpx; line-height: 40rpx; font-size: 30rpx; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; padding-top: 5rpx;}
 .txt .bot{ width: 100%; height:40rpx;line-height: 40rpx; position: absolute; bottom: 0; left: 0; font-size: 24rpx;}
-.txt .bot .pri{ float: left;}
-.txt .bot .pri-buy .num{ color: #f00;}
+.txt .bot .pri{ float: left; font-size: 30rpx;}
+.txt .bot .pri-buy .num{ color: #f00; }
 .txt .bot .pri-play{ color: #999; text-decoration: line-through;}
-.txt .bot .a{ float: right; font-size: 28rpx; color: #999;}
+.txt .bot .a{ float: right; font-size: 30rpx; color: #999;}
 .txt .bot .a .ico{ width: 30rpx; height: 30rpx;  float: left; margin-top: 5rpx;}
 .txt .bot .a .ti{ float: left; margin-left: 10rpx; }
 .del {background-color: #d5d5d5; width: 180rpx; display: flex;flex-direction: column;

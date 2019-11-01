@@ -10,7 +10,9 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.6",
 	"appid": "touristappid",
-	"projectname": "%E5%90%91%E5%B7%A6%E6%BB%91%E5%8A%A8%E5%88%A0%E9%99%A4",
+	"projectname": "%E5%8F%B3%E6%BB%91%E5%88%A0%E9%99%A4",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
